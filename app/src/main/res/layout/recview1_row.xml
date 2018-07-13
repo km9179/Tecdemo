@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/recview1_row_root"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:layout_margin="5dp"
+    android:background="#ffaadd"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#aaffff"
+        android:layout_margin="5dp">
     <ImageView
         android:id="@+id/img1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
         android:background="@drawable/ic_launcher_background"
         />
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_gravity="bottom"
+        android:textColorHighlight="#000000"
+
+
         />
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>
